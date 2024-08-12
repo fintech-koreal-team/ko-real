@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - 계좌_송금_엔티티_관계_테스트</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>계좌_송금_엔티티_관계_테스트</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/fintech_team1.remittance_server.entity.html">fintech_team1.remittance_server.entity</a> &gt; AccountTransferTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.072s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAccountTransferRelations()</td>
+<td class="success">0.072s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2024-08-11T02:46:23.634+09:00  INFO 95278 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [fintech_team1.remittance_server.entity.AccountTransferTest]: AccountTransferTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-11T02:46:23.647+09:00  INFO 95278 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration fintech_team1.remittance_server.RemittanceServerApplication for test class fintech_team1.remittance_server.entity.AccountTransferTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-08-11T02:46:23.663+09:00  WARN 95278 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/yerilee/.gradle/caches/modules-2/files-2.1/org.json/json/20210307/528c8df3757e8bcf151817b1d7b9b434f6aa08d5/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/Users/yerilee/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-08-11T02:46:23.663+09:00  INFO 95278 --- [    Test worker] f.r.entity.AccountTransferTest           : Starting AccountTransferTest using Java 17.0.10 with PID 95278 (started by yerilee in /Users/yerilee/Downloads/remittance-server)
+2024-08-11T02:46:23.663+09:00  INFO 95278 --- [    Test worker] f.r.entity.AccountTransferTest           : The following 3 profiles are active: &quot;api&quot;, &quot;jwt&quot;, &quot;test&quot;
+2024-08-11T02:46:23.708+09:00  INFO 95278 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-11T02:46:23.708+09:00  INFO 95278 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-11T02:46:23.721+09:00  INFO 95278 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 13 JPA repository interfaces.
+2024-08-11T02:46:23.729+09:00  INFO 95278 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-08-11T02:46:23.741+09:00  INFO 95278 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:718efe1a-f706-4d6d-b4d0-b0538655b089;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-08-11T02:46:23.874+09:00  INFO 95278 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-11T02:46:23.875+09:00  INFO 95278 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-11T02:46:23.881+09:00  INFO 95278 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-11T02:46:23.888+09:00  WARN 95278 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-11T02:46:24.049+09:00  INFO 95278 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists account cascade 
+Hibernate: drop table if exists address cascade 
+Hibernate: drop table if exists brand cascade 
+Hibernate: drop table if exists card cascade 
+Hibernate: drop table if exists cart cascade 
+Hibernate: drop table if exists member cascade 
+Hibernate: drop table if exists order_entity cascade 
+Hibernate: drop table if exists order_item cascade 
+Hibernate: drop table if exists product cascade 
+Hibernate: drop table if exists refresh_entity cascade 
+Hibernate: drop table if exists review cascade 
+Hibernate: drop table if exists review_reaction cascade 
+Hibernate: drop table if exists transfer cascade 
+Hibernate: drop table if exists wishlist cascade 
+Hibernate: create table account (balance numeric(38,2) default 0 not null, is_default boolean not null, id bigint generated by default as identity, member_id bigint, account_name varchar(255) not null, account_number varchar(255) not null unique, primary key (id))
+Hibernate: create table address (is_default boolean not null, id bigint generated by default as identity, member_id bigint, city varchar(255) not null, country varchar(255) not null, recipient_name varchar(255) not null, state varchar(255) not null, street_address varchar(255) not null, zip_code varchar(255) not null, primary key (id))
+Hibernate: create table brand (popularity integer not null, id bigint generated by default as identity, img_url varchar(255), name varchar(255) not null unique, primary key (id))
+Hibernate: create table card (is_default boolean not null, id bigint generated by default as identity, member_id bigint, card_expiry_date varchar(255) not null, card_holder_name varchar(255) not null, card_number varchar(255) not null unique, cardcvv varchar(255) not null, primary key (id))
+Hibernate: create table cart (quantity integer, id bigint generated by default as identity, member_id bigint not null, product_id bigint not null, primary key (id))
+Hibernate: create table member (id bigint generated by default as identity, email varchar(255) not null unique, password varchar(255) not null, role varchar(255), userid varchar(255) unique, username varchar(255) not null, primary key (id))
+Hibernate: create table order_entity (payment_method tinyint check (payment_method between 0 and 1), total_amount numeric(38,2), address_id bigint, id bigint generated by default as identity, member_id bigint not null, order_date timestamp(6), contact_email varchar(255), status enum ('CANCELED','CREATED','DELIVERY_COMPLETED','ON_DELIVERY','PAYMENT_COMPLETED','PURCHASE_CONFIRMED') not null, primary key (id))
+Hibernate: create table order_item (price numeric(38,2), quantity integer, id bigint generated by default as identity, order_id bigint not null, product_id bigint not null, primary key (id))
+Hibernate: create table product (discounted_price numeric(38,2) not null, popularity integer not null, price numeric(38,2) not null, brand_id bigint not null, created_date timestamp(6) not null, id bigint generated by default as identity, description varchar(1000) not null, img_url varchar(255), ingredients varchar(255) not null, name varchar(255) not null, product_code varchar(255) not null, category enum ('HAIR_BODY','MAKEUP','SKINCARE','TOOLS_BRUSHES') not null, primary key (id))
+Hibernate: create table refresh_entity (id bigint generated by default as identity, expiration varchar(255), refresh varchar(255), username varchar(255), primary key (id))
+Hibernate: create table review (rating integer not null check ((rating&lt;=5) and (rating&gt;=1)), created_at timestamp(6) not null, id bigint generated by default as identity, member_id bigint not null, product_id bigint not null, comment varchar(255) not null, primary key (id))
+Hibernate: create table review_reaction (id bigint generated by default as identity, member_id bigint not null, review_id bigint not null, reaction_type enum ('DISLIKE','LIKE'), primary key (id))
+Hibernate: create table transfer (amount numeric(38,2) not null, converted_amount numeric(38,2) not null, id bigint generated by default as identity, received_date timestamp(6) not null, receiver_account_id bigint not null, sender_account_id bigint, sent_date timestamp(6) not null, primary key (id))
+Hibernate: create table wishlist (id bigint generated by default as identity, member_id bigint not null, product_id bigint not null, primary key (id))
+Hibernate: alter table if exists account add constraint FKr5j0huynd7nsv1s7e9vb8qvwo foreign key (member_id) references member
+Hibernate: alter table if exists address add constraint FKcnw0s8hudme00qu71e3mqd5ih foreign key (member_id) references member
+Hibernate: alter table if exists card add constraint FKbf204t9qecurpbyoqlmpcy5t4 foreign key (member_id) references member
+Hibernate: alter table if exists cart add constraint FKix170nytunweovf2v9137mx2o foreign key (member_id) references member
+Hibernate: alter table if exists cart add constraint FK3d704slv66tw6x5hmbm6p2x3u foreign key (product_id) references product
+Hibernate: alter table if exists order_entity add constraint FK8lvfdehnvu69xopspvaoqkik4 foreign key (address_id) references address
+Hibernate: alter table if exists order_entity add constraint FK8b36gxrma6uqxvgbcnduej3kt foreign key (member_id) references member
+Hibernate: alter table if exists order_item add constraint FKkemfqcsngagxuetu5o1qnbyi5 foreign key (order_id) references order_entity
+Hibernate: alter table if exists order_item add constraint FK551losx9j75ss5d6bfsqvijna foreign key (product_id) references product
+Hibernate: alter table if exists product add constraint FKs6cydsualtsrprvlf2bb3lcam foreign key (brand_id) references brand
+Hibernate: alter table if exists review add constraint FKk0ccx5i4ci2wd70vegug074w1 foreign key (member_id) references member
+Hibernate: alter table if exists review add constraint FKiyof1sindb9qiqr9o8npj8klt foreign key (product_id) references product
+Hibernate: alter table if exists review_reaction add constraint FKfoo39t911ytqs7lq7tse8s5y8 foreign key (member_id) references member
+Hibernate: alter table if exists review_reaction add constraint FKcj6w193lagh5wq2ss20k2tka5 foreign key (review_id) references review
+Hibernate: alter table if exists transfer add constraint FKlltfjm4ecosvcq79reei1x8hu foreign key (receiver_account_id) references account
+Hibernate: alter table if exists transfer add constraint FK36yxbg4litvecfsrd0llcc4uq foreign key (sender_account_id) references account
+Hibernate: alter table if exists wishlist add constraint FKr9m487rorwstnl1r1ib9r5pds foreign key (member_id) references member
+Hibernate: alter table if exists wishlist add constraint FKqchevbfw5wq0f4uqacns02rp7 foreign key (product_id) references product
+2024-08-11T02:46:24.095+09:00  INFO 95278 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-11T02:46:24.163+09:00  INFO 95278 --- [    Test worker] f.r.entity.AccountTransferTest           : Started AccountTransferTest in 0.514 seconds (process running for 7.692)
+Hibernate: insert into account (account_name,account_number,balance,is_default,member_id,id) values (?,?,?,?,?,default)
+Hibernate: insert into account (account_name,account_number,balance,is_default,member_id,id) values (?,?,?,?,?,default)
+Hibernate: insert into transfer (amount,converted_amount,received_date,receiver_account_id,sender_account_id,sent_date,id) values (?,?,?,?,?,?,default)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 2024. 8. 11. 오전 2:46:24</p>
+</div>
+</div>
+</body>
+</html>

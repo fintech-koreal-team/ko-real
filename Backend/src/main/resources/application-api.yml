@@ -1,0 +1,9 @@
+api:
+  currency:
+    url: "http://api.currencylayer.com/live"
+#    access-key: "0515a49dfab221e7ab4317ca087a516e"
+    access-key: "7e2babfa62d7ae74f1af38f93f1548bf"
+
+#    한국수출입 은행 API
+#    url: "https://www.koreaexim.go.kr/site/program/financial/exchangeJSON?"
+#    access-key: "NmSv1dHDzuuHmdxLI4MEXRfB047Kpmid"

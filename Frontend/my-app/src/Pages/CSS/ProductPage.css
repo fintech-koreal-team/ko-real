@@ -1,0 +1,248 @@
+/* General container for the product page */
+.product-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Product header section */
+.product-header {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.product-header img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111416;
+  margin-bottom: 10px;
+}
+
+.product-info .brand-name {
+  font-size: 18px;
+  color: #5a5a5a;
+  margin-bottom: 20px;
+}
+
+.price-section {
+  margin-bottom: 20px;
+}
+
+.price-section .original-price {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #a0a0a0;
+  margin-right: 10px;
+}
+
+.price-section .discounted-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0c752b;
+}
+
+.price-section .discount-tag {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff6347;
+  margin-left: 10px;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rating-section .stars {
+  font-size: 16px;
+  color: #009963;
+  margin-right: 10px;
+}
+
+.rating-section .reviews-count {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.quantity-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-section button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.quantity-section input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.add-to-cart {
+  display: inline-block;
+  background-color: #009963;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  width: 100%; /* Ensures the button takes the full width of its container */
+}
+
+.add-to-cart:hover {
+  background-color: #009963;
+}
+
+/* Tabs for Description, Ingredients, Reviews */
+.tabs {
+display: flex;
+gap: 290px; /* Keeps the large gap between buttons */
+border-bottom: 2px solid #e0e0e0;
+margin-bottom: 20px;
+justify-content: center; /* Centers the tab buttons horizontally */
+}
+
+.tabs button {
+background: none;
+border: none;
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 10px;
+cursor: pointer;
+color: #5a5a5a;
+transition: color 0.3s, border-bottom 0.3s;
+position: relative; /* Enables positioning of the active underline */
+}
+
+.tabs button.active::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -2px; /* Position underline just below the text */
+width: 100%;
+height: 2px;
+background-color: #009963;
+}
+
+.tabs button:hover {
+color: #009963;
+}
+
+.tabs button.active {
+color: #009963; /* Active tab button color */
+}
+
+/* Product description and details */
+.product-description {
+margin-top: 20px;
+}
+
+.product-description h3 {
+font-size: 22px;
+font-weight: 700;
+color: #111416;
+margin-bottom: 20px;
+}
+
+.product-description p {
+font-size: 16px;
+color: #5a5a5a;
+line-height: 1.6;
+}
+
+/* Reviews section */
+.product-reviews {
+  margin-top: 40px;
+}
+
+.product-reviews h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111416;
+  margin-bottom: 20px;
+}
+
+.product-reviews .review {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.product-reviews .review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-reviews .review:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.product-reviews .review p {
+  margin: 5px 0;
+}
+
+.product-reviews .review strong {
+  font-size: 16px;
+  color: #111416;
+}
+
+.product-reviews .review .stars {
+  font-size: 14px;
+  color: #009963;
+}
+
+.product-reviews .review-date {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+/* Footer Section */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+footer a {
+  color: #009963;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,110 @@
+/* General styling */
+body {
+  font-family: "Work Sans", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.depth-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.section-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111416;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Grid containers */
+.brand-container,
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* Cards */
+.brand-card,
+.product-card {
+  flex: 1 1 calc(20% - 20px); /* 5개 카드가 가로로 배치되도록 설정 */
+  width: calc(25% - 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none; /* 링크에 밑줄 제거 */
+}
+
+.product-image {
+  width: 100%;
+  position: relative;
+  padding-top: 100%; /* 1:1 aspect ratio */
+  border-radius: 12px;
+  background-color: #e0e0e0;
+  overflow: hidden;
+}
+
+.brand-image {
+  width: 100%;
+  position: relative;
+  padding-top: 100%; /* 1:1 aspect ratio */
+  border-radius: 12px;
+  background-color: #e0e0e0;
+  background-size: cover; /* 이미지를 카드 전체 크기에 맞게 확장 */
+  background-position: center; /* 이미지를 카드 중앙에 맞춤 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  overflow: hidden;
+}
+
+
+.brand-name,
+.product-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111416;
+  text-align: left;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.product-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #637587;
+}
+
+.product-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #009963;
+  height: 24px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #b0b0b0;
+  margin-right: 8px;
+}
+
+.discounted-price {
+  color: #009963;
+}

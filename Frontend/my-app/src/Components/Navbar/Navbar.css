@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: "Work Sans", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    padding: 15px 70px;
+    background-color: #fff;
+    border-bottom: 2px solid #e5e8ea;
+}
+
+.nav-logo button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.nav-title {
+    flex: 1; 
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    flex: 4; 
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.nav-menu a {
+    font-family: "Work Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-search {
+    border: 1px;
+    background-color: #eff2f4;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.nav-login-cart {
+    flex: 1; /* This helps in aligning the menu */
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.nav-login-cart li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-login-cart button:active {
+    background: #f3f3f3;
+}
+
+.nav-login-cart button {
+    background: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-cart-img {
+    width: 30px;
+    height: auto;
+}
+
+.nav-cart {
+    width: 50px;
+}
+
+.nav-login {
+    width: 70px;
+}
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.currency-select {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}

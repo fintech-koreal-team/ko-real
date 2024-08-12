@@ -1,0 +1,40 @@
+.contact-information {
+    width: 100%;
+    max-width: 400px; /* 적절한 최대 너비 설정 */
+    margin-bottom: 30px; /* 섹션 간 간격 */
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%; /* 전체 너비로 확장 */
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    color: #777;
+}
+
+.input-field[disabled] {
+    background-color: #f9f9f9;
+    color: #999;
+}
+
+.email-notice {
+    font-size: 0.9rem;
+    color: #a08249;
+    margin-top: 5px;
+    display: block;
+    text-align: left; /* 텍스트도 왼쪽 정렬 */
+}

@@ -1,0 +1,101 @@
+.login-signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .welcome-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #EFE4D3;
+    border-radius: 8px;
+    background-color: white;
+    color: #9c7c5b;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input::placeholder {
+    color: #B49866;
+  }
+  
+  .input-group input:focus {
+    border-color: #9c7c5b;
+  }
+  
+  .login-button {
+    width: 150%;
+    max-width: 600px; /* 선택적으로 최대 너비 설정 */
+    padding: 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #009963;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* 버튼을 정확히 가운데로 이동 */
+  }
+  
+  .login-button:hover {
+    background-color: #008652;
+  }
+  
+  .signup-button {
+    width: 150%;
+    max-width: 600px; /* 선택적으로 최대 너비 설정 */
+    padding: 15px;
+    font-size: 1rem;
+    color: black;
+    background-color: #f5efe2;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* 버튼을 정확히 가운데로 이동 */
+  }
+  
+  
+  .signup-button:hover {
+    background-color: #F5F0E5;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #9c7c5b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password:hover {
+    color: #7c5c3b;
+  }
+  

@@ -1,0 +1,161 @@
+.checkout-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111416;
+    margin-bottom: 15px;
+}
+
+.checkout-summary {
+    margin-bottom: 20px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    gap: 15px;
+}
+
+.order-item img {
+    width: 100px; /* 이미지의 너비를 설정 */
+    height: 100px; /* 이미지의 높이를 설정 */
+    object-fit: cover; /* 이미지가 비율에 맞게 잘림 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    margin-right: 15px; /* 이미지와 텍스트 간의 간격 */
+  }
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 왼쪽 정렬 */
+  }
+
+.product-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111416;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #a08249;
+}
+
+.order-summary {
+    border-top: 1px solid #ddd;
+    padding-top: 10px; /* 위쪽 패딩 추가 */
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.summary-label {
+    font-size: 16px;
+    color: #a08249;
+}
+
+.summary-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111416;
+}
+
+.checkout-form-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #a08249;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.checkout-button {
+    background-color:  #009963;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #009963;
+}
+
+.shipping-address {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-email,
+.contact-name,
+.contact-address {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #a08249;
+}
+
+.change-button {
+    background-color: #f4efe5;
+    border: 1px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: #1c160c;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.payment-method label {
+    
+    font-size: 16px;
+    color: #111416;
+    margin-bottom: 5px;
+}
+
+.email-notice {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.info-mail {
+    
+    background: none;
+    border: 5px solid;
+    border-color: #efe4d3;
+    border-radius: 10px;
+}

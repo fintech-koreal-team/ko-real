@@ -1,0 +1,89 @@
+/* General styling for sections */
+.skincare-frame {
+  padding: 20px;
+}
+
+.skincare-section {
+  margin-bottom: 40px;
+}
+
+.skincare-section-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Styling for the product grid */
+.skincare-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Styling for each product card */
+.skincare-product-card {
+  flex: 1 1 calc(20% - 20px);
+  width: calc(25% - 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* Product image styling */
+.skincare-product-header {
+  width: 100%;
+  padding-top: 100%; /* 1:1 aspect ratio */
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.skincare-product-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Product details */
+.skincare-product-details {
+  padding: 15px;
+}
+
+.skincare-product-name {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skincare-product-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.skincare-product-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.skincare-original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.skincare-discounted-price {
+  font-size: 18px;
+  color:  #009963;
+  font-weight: bold;
+}

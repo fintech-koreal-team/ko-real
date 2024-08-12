@@ -1,0 +1,45 @@
+.payment-method-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-method label {
+    font-size: 1rem;
+    color: #555;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.payment-method input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #2e7d32;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.payment-method input[type="radio"]:checked {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}

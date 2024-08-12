@@ -1,0 +1,83 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.remittance-transfer-container {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.remittance-transfer-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+
+.remittance-transfer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 0;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.remittance-transfer-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.remittance-transfer-label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.remittance-transfer-value {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-align: right; /* This aligns the text to the right */
+    flex: 1; /* This ensures the value takes up the available space */
+}
+
+.remittance-transfer-gray {
+    color: #666;
+    text-align: right;
+    flex: 1;
+}
+  
+.remittance-transfer-checkout {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #2D9C6E 0%, #56C1A7 100%);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.remittance-transfer-checkout:hover {
+    background: linear-gradient(90deg, #56C1A7 0%, #2D9C6E 100%);
+}
+  
+.remittance-transfer-footer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}

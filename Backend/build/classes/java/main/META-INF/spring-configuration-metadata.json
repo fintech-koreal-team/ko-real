@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "api.currency",
+      "type": "fintech_team1.remittance_server.global.config.ConfigProperties",
+      "sourceType": "fintech_team1.remittance_server.global.config.ConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "api.currency.access-key",
+      "type": "java.lang.String",
+      "sourceType": "fintech_team1.remittance_server.global.config.ConfigProperties"
+    },
+    {
+      "name": "api.currency.url",
+      "type": "java.lang.String",
+      "sourceType": "fintech_team1.remittance_server.global.config.ConfigProperties"
+    }
+  ],
+  "hints": []
+}

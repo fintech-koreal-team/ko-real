@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="외부_환율_API_호출_캐싱_처리_테스트" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-10T17:46:22" hostname="iyelin-ui-MacBookPro.local" time="0.84">
+  <properties/>
+  <testcase name="testCache()" classname="fintech_team1.remittance_server.domain.remittance.service.CurrencyServiceTest" time="0.84"/>
+  <system-out><![CDATA[2024-08-11T02:46:22.780+09:00  INFO 95278 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [fintech_team1.remittance_server.domain.remittance.service.CurrencyServiceTest]: CurrencyServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-11T02:46:22.789+09:00  INFO 95278 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration fintech_team1.remittance_server.RemittanceServerApplication for test class fintech_team1.remittance_server.domain.remittance.service.CurrencyServiceTest
+2024-08-11T02:46:22.999+09:00  INFO 95278 --- [    Test worker] f.r.d.r.service.CacheableService         : Request URL: http://api.currencylayer.com/live?access_key=411f170e5183c4da6c971a245948bd10&source=USD&currencies=EUR
+2024-08-11T02:46:23.601+09:00  INFO 95278 --- [    Test worker] f.r.d.r.service.CacheableService         : API Response: {"success":true,"terms":"https:\/\/currencylayer.com\/terms","privacy":"https:\/\/currencylayer.com\/privacy","timestamp":1723311963,"source":"USD","quotes":{"USDEUR":0.91555}}
+2024-08-11T02:46:23.616+09:00  INFO 95278 --- [    Test worker] f.r.d.r.service.CurrencyService          : 통화 변환 정보: from USD to EUR
+2024-08-11T02:46:23.616+09:00  INFO 95278 --- [    Test worker] f.r.d.r.service.CurrencyService          : 환율: USDEUR = 0.91555
+2024-08-11T02:46:23.626+09:00  INFO 95278 --- [    Test worker] f.r.d.r.service.CurrencyService          : 통화 변환 정보: from USD to EUR
+2024-08-11T02:46:23.626+09:00  INFO 95278 --- [    Test worker] f.r.d.r.service.CurrencyService          : 환율: USDEUR = 0.91555
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
