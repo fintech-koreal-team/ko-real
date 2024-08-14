@@ -28,7 +28,7 @@
 
 ### 3. 파트 분담
 ---
-|홈화면 @yeriel03|홍서정 @zczl929|이예린 @dpfls0922|
+|문예진 @yeriel03|홍서정 @zczl929|이예린 @dpfls0922|
 |------|---|---|
 | <img src="image/person1.png" alt="Person 1" style="width:200px; height:200px;"> | <img src="image/person2.png" alt="Person 2" style="width:200px; height:200px;"> | <img src="image/person3.png" alt="Person 3" style="width:200px; height:200px;"> |
 |FRONTEND|FRONTEND|BACKEND|
